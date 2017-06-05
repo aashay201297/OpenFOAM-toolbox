@@ -6,19 +6,19 @@
 //  the SWIG interface file instead.
 // ----------------------------------------------------------------------------- */
 
-libinc_path = get_absolute_file_path('loader.sce');
-[bOK, ilib] = c_link('libinc');
+libicoFoam_path = get_absolute_file_path('loader.sce');
+[bOK, ilib] = c_link('libicoFoam');
 if bOK then
   ulink(ilib);
 end
 list_functions = [..
-  'inc_Init'; ..
+  'icoFoam_Init'; ..
   'SWIG_this'; ..
   'SWIG_ptr'; ..
-  'inc'; ..
+  'icoFoam'; ..
 ];
-addinter(fullfile(libinc_path, 'libinc' + getdynlibext()), 'libinc', list_functions);
-clear libinc_path;
+addinter(fullfile(libicoFoam_path, 'libicoFoam' + getdynlibext()), 'libicoFoam', list_functions);
+clear libicoFoam_path;
 clear bOK;
 clear ilib;
 clear list_functions;

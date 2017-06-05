@@ -34,7 +34,7 @@ Description
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-int inc(int argc, char *argv[])
+int icoFoam(int argc, char *argv[])
 {
     #include "setRootCase.H"
     #include "createTime.H"

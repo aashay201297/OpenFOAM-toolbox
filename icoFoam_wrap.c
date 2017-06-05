@@ -1246,7 +1246,7 @@ static swig_module_info swig_module = {swig_types, 1, 0, 0, 0, 0};
 #include "pisoControl.H"
 
 
-extern int inc(int argc, char *argv[]);
+extern int icoFoam(int argc, char *argv[]);
 
 
 SWIGINTERN int
@@ -1423,7 +1423,7 @@ SWIG_SciDouble_FromInt(void *pvApiCtx, int iVarOut, int iValue, char *fname){
 
 #define SWIG_From_int(scilabValue) SWIG_SciDouble_FromInt(pvApiCtx, SWIG_Scilab_GetOutputPosition(), scilabValue, SWIG_Scilab_GetFuncName())
 
-int _wrap_inc(SWIG_GatewayParameters) {
+int _wrap_icoFoam(SWIG_GatewayParameters) {
   int arg1 ;
   char **arg2 ;
   int val1 ;
@@ -1436,7 +1436,7 @@ int _wrap_inc(SWIG_GatewayParameters) {
   SWIG_Scilab_SetApiContext(pvApiCtx);
   ecode1 = SWIG_AsVal_int(1, &val1);
   if (!SWIG_IsOK(ecode1)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "inc" "', argument " "1"" of type '" "int""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "icoFoam" "', argument " "1"" of type '" "int""'");
   } 
   arg1 = (int)(val1);
   {
@@ -1452,7 +1452,7 @@ int _wrap_inc(SWIG_GatewayParameters) {
       arg2[i] = (char *) pTempData[i];
     }
   }
-  result = (int)inc(arg1,arg2);
+  result = (int)icoFoam(arg1,arg2);
   SWIG_Scilab_SetOutputPosition(1);
   if (!SWIG_IsOK(SWIG_Scilab_SetOutput(pvApiCtx, SWIG_From_int((int)(result))))) return SWIG_ERROR;
   return SWIG_OK;
@@ -1742,7 +1742,7 @@ SWIG_Scilab_TypeQuery(const char *name) {
 #ifdef __cplusplus
 extern "C"
 #endif
-int inc_Init(SWIG_GatewayParameters) {
+int icoFoam_Init(SWIG_GatewayParameters) {
   SWIG_InitializeModule(NULL);
   SWIG_CreateScilabVariables(pvApiCtx);
   swig_module_initialized = 1;
@@ -1760,13 +1760,13 @@ extern "C" {
 }
 #endif
 
-#define MODULE_NAME L"libinc"
+#define MODULE_NAME L"libicoFoam"
 #ifdef __cplusplus
 extern "C"
 #endif
-int libinc(wchar_t *pwstFuncName) {
-  if (wcscmp(pwstFuncName, L"inc_Init") == 0) {
-    addCStackFunction((wchar_t *)L"inc_Init", &inc_Init, (wchar_t *)MODULE_NAME); 
+int libicoFoam(wchar_t *pwstFuncName) {
+  if (wcscmp(pwstFuncName, L"icoFoam_Init") == 0) {
+    addCStackFunction((wchar_t *)L"icoFoam_Init", &icoFoam_Init, (wchar_t *)MODULE_NAME); 
   }
   if (wcscmp(pwstFuncName, L"SWIG_this") == 0) {
     addCStackFunction((wchar_t *)L"SWIG_this", &SWIG_this, (wchar_t *)MODULE_NAME); 
@@ -1774,15 +1774,15 @@ int libinc(wchar_t *pwstFuncName) {
   if (wcscmp(pwstFuncName, L"SWIG_ptr") == 0) {
     addCStackFunction((wchar_t *)L"SWIG_ptr", &SWIG_ptr, (wchar_t *)MODULE_NAME); 
   }
-  if (wcscmp(pwstFuncName, L"inc") == 0) {
-    addCStackFunction((wchar_t *)L"inc", &_wrap_inc, (wchar_t *)MODULE_NAME); 
+  if (wcscmp(pwstFuncName, L"icoFoam") == 0) {
+    addCStackFunction((wchar_t *)L"icoFoam", &_wrap_icoFoam, (wchar_t *)MODULE_NAME); 
   }
   return 1;
 };
 #else
 static GenericTable Tab[] = {
   {
-    (Myinterfun)sci_gateway, (GT)inc_Init, (char *)"inc_Init"
+    (Myinterfun)sci_gateway, (GT)icoFoam_Init, (char *)"icoFoam_Init"
   },
   {
     (Myinterfun)sci_gateway, (GT)SWIG_this, (char *)"SWIG_this"
@@ -1791,14 +1791,14 @@ static GenericTable Tab[] = {
     (Myinterfun)sci_gateway, (GT)SWIG_ptr, (char *)"SWIG_ptr"
   },
   {
-    (Myinterfun)sci_gateway, (GT)_wrap_inc, (char *)"inc"
+    (Myinterfun)sci_gateway, (GT)_wrap_icoFoam, (char *)"icoFoam"
   }
 };
 
 #ifdef __cplusplus
 extern "C" {
 #endif
-  int C2F(libinc)() {
+  int C2F(libicoFoam)() {
     Rhs = Max(0, Rhs);
     if (*(Tab[Fin-1].f) != NULL) {
       if(pvApiCtx == NULL) {
