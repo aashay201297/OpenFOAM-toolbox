@@ -1,238 +1,238 @@
-In file included from functionObjectList.H:47:0,
-                 from Time.H:53,
-                 from fvCFD.H:6,
+In file included from /home/itsme/gsoc/OpenFOAM-toolbox/include/functionObjectList.H:47:0,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/Time.H:53,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/fvCFD.H:6,
                  from icoFoam_wrap.c:1245:
-HashSet.H:211:24: error: ‘Hash’ was not declared in this scope
+/home/itsme/gsoc/OpenFOAM-toolbox/include/HashSet.H:211:24: error: ‘Hash’ was not declared in this scope
  typedef HashSet<label, Hash<label>> labelHashSet;
                         ^
-HashSet.H:211:29: error: template argument 2 is invalid
+/home/itsme/gsoc/OpenFOAM-toolbox/include/HashSet.H:211:29: error: template argument 2 is invalid
  typedef HashSet<label, Hash<label>> labelHashSet;
                              ^
-HashSet.H:211:34: error: expected unqualified-id before ‘>’ token
+/home/itsme/gsoc/OpenFOAM-toolbox/include/HashSet.H:211:34: error: expected unqualified-id before ‘>’ token
  typedef HashSet<label, Hash<label>> labelHashSet;
                                   ^
-In file included from polyMesh.H:45:0,
-                 from fvMesh.H:50,
-                 from fvCFD.H:7,
+In file included from /home/itsme/gsoc/OpenFOAM-toolbox/include/polyMesh.H:45:0,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/fvMesh.H:50,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/fvCFD.H:7,
                  from icoFoam_wrap.c:1245:
-primitiveMesh.H:160:21: error: ‘labelHashSet’ does not name a type
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:160:21: error: ‘labelHashSet’ does not name a type
              mutable labelHashSet labelSet_;
                      ^
-primitiveMesh.H:283:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:283:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet*
                  ^
-primitiveMesh.H:291:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:291:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet*
                  ^
-primitiveMesh.H:308:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:308:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet* setPtr,
                  ^
-primitiveMesh.H:309:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:309:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet* aspectSetPtr,
                  ^
-primitiveMesh.H:319:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:319:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet* setPtr
                  ^
-primitiveMesh.H:328:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:328:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet* setPtr
                  ^
-primitiveMesh.H:337:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:337:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet* setPtr
                  ^
-primitiveMesh.H:348:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:348:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet* setPtr
                  ^
-primitiveMesh.H:359:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:359:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet* setPtr
                  ^
-primitiveMesh.H:373:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:373:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet* setPtr
                  ^
-primitiveMesh.H:384:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:384:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet* setPtr
                  ^
-primitiveMesh.H:393:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:393:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet* setPtr
                  ^
-primitiveMesh.H:609:21: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:609:21: error: ‘labelHashSet’ has not been declared
                      labelHashSet* setPtr = nullptr
                      ^
-primitiveMesh.H:616:21: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:616:21: error: ‘labelHashSet’ has not been declared
                      labelHashSet* setPtr = nullptr
                      ^
-primitiveMesh.H:623:21: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:623:21: error: ‘labelHashSet’ has not been declared
                      labelHashSet* setPtr = nullptr
                      ^
-primitiveMesh.H:630:21: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:630:21: error: ‘labelHashSet’ has not been declared
                      labelHashSet* setPtr = nullptr
                      ^
-primitiveMesh.H:637:21: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:637:21: error: ‘labelHashSet’ has not been declared
                      labelHashSet* setPtr = nullptr
                      ^
-primitiveMesh.H:651:21: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:651:21: error: ‘labelHashSet’ has not been declared
                      labelHashSet* setPtr = nullptr,
                      ^
-primitiveMesh.H:652:21: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:652:21: error: ‘labelHashSet’ has not been declared
                      labelHashSet* highAspectSetPtr = nullptr,
                      ^
-primitiveMesh.H:660:21: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:660:21: error: ‘labelHashSet’ has not been declared
                      labelHashSet* setPtr = nullptr
                      ^
-primitiveMesh.H:667:21: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:667:21: error: ‘labelHashSet’ has not been declared
                      labelHashSet* setPtr = nullptr
                      ^
-primitiveMesh.H:674:21: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:674:21: error: ‘labelHashSet’ has not been declared
                      labelHashSet* setPtr = nullptr
                      ^
-primitiveMesh.H:682:21: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:682:21: error: ‘labelHashSet’ has not been declared
                      labelHashSet* setPtr = nullptr
                      ^
-primitiveMesh.H:689:21: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:689:21: error: ‘labelHashSet’ has not been declared
                      labelHashSet* setPtr = nullptr
                      ^
-primitiveMesh.H:697:21: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:697:21: error: ‘labelHashSet’ has not been declared
                      labelHashSet* setPtr = nullptr
                      ^
-primitiveMesh.H:707:21: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:707:21: error: ‘labelHashSet’ has not been declared
                      labelHashSet* setPtr
                      ^
-primitiveMesh.H:716:21: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:716:21: error: ‘labelHashSet’ has not been declared
                      labelHashSet* setPtr = nullptr
                      ^
-primitiveMesh.H:724:21: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:724:21: error: ‘labelHashSet’ has not been declared
                      labelHashSet* setPtr = nullptr
                      ^
-primitiveMesh.H:731:21: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/primitiveMesh.H:731:21: error: ‘labelHashSet’ has not been declared
                      labelHashSet* setPtr = nullptr
                      ^
-In file included from primitivePatch.H:35:0,
-                 from polyPatch.H:43,
-                 from polyPatchList.H:35,
-                 from polyBoundaryMesh.H:38,
-                 from polyMesh.H:53,
-                 from fvMesh.H:50,
-                 from fvCFD.H:7,
+In file included from /home/itsme/gsoc/OpenFOAM-toolbox/include/primitivePatch.H:35:0,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/polyPatch.H:43,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/polyPatchList.H:35,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/polyBoundaryMesh.H:38,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/polyMesh.H:53,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/fvMesh.H:50,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/fvCFD.H:7,
                  from icoFoam_wrap.c:1245:
-PrimitivePatch.H:437:13: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/PrimitivePatch.H:437:13: error: ‘labelHashSet’ has not been declared
              labelHashSet* setPtr = nullptr
              ^
-PrimitivePatch.H:449:13: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/PrimitivePatch.H:449:13: error: ‘labelHashSet’ has not been declared
              labelHashSet* setPtr = nullptr
              ^
-In file included from polyMesh.H:53:0,
-                 from fvMesh.H:50,
-                 from fvCFD.H:7,
+In file included from /home/itsme/gsoc/OpenFOAM-toolbox/include/polyMesh.H:53:0,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/fvMesh.H:50,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/fvCFD.H:7,
                  from icoFoam_wrap.c:1245:
-polyBoundaryMesh.H:178:9: error: ‘labelHashSet’ does not name a type
+/home/itsme/gsoc/OpenFOAM-toolbox/include/polyBoundaryMesh.H:178:9: error: ‘labelHashSet’ does not name a type
          labelHashSet findPatchIDs() const;
          ^
-polyBoundaryMesh.H:195:9: error: ‘labelHashSet’ does not name a type
+/home/itsme/gsoc/OpenFOAM-toolbox/include/polyBoundaryMesh.H:195:9: error: ‘labelHashSet’ does not name a type
          labelHashSet patchSet
          ^
-polyBoundaryMesh.H:208:13: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/polyBoundaryMesh.H:208:13: error: ‘labelHashSet’ has not been declared
              labelHashSet& nonGroupPatches
              ^
-In file included from fvMesh.H:50:0,
-                 from fvCFD.H:7,
+In file included from /home/itsme/gsoc/OpenFOAM-toolbox/include/fvMesh.H:50:0,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/fvCFD.H:7,
                  from icoFoam_wrap.c:1245:
-polyMesh.H:246:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/polyMesh.H:246:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet* setPtr
                  ^
-polyMesh.H:258:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/polyMesh.H:258:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet* setPtr
                  ^
-polyMesh.H:266:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/polyMesh.H:266:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet* setPtr
                  ^
-polyMesh.H:273:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/polyMesh.H:273:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet* setPtr,
                  ^
-polyMesh.H:284:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/polyMesh.H:284:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet* setPtr
                  ^
-polyMesh.H:292:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/polyMesh.H:292:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet* setPtr
                  ^
-polyMesh.H:627:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/polyMesh.H:627:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet* setPtr = nullptr
                  ^
-polyMesh.H:634:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/polyMesh.H:634:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet* setPtr = nullptr
                  ^
-polyMesh.H:642:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/polyMesh.H:642:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet* setPtr
                  ^
-polyMesh.H:648:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/polyMesh.H:648:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet* setPtr
                  ^
-polyMesh.H:664:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/polyMesh.H:664:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet* setPtr = nullptr
                  ^
-polyMesh.H:672:17: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/polyMesh.H:672:17: error: ‘labelHashSet’ has not been declared
                  labelHashSet* setPtr = nullptr
                  ^
-In file included from fvc.H:39:0,
-                 from fvCFD.H:8,
+In file included from /home/itsme/gsoc/OpenFOAM-toolbox/include/fvc.H:39:0,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/fvCFD.H:8,
                  from icoFoam_wrap.c:1245:
-surfaceInterpolate.H:177:16: error: ‘FieldField’ was not declared in this scope
+/home/itsme/gsoc/OpenFOAM-toolbox/include/surfaceInterpolate.H:177:16: error: ‘FieldField’ was not declared in this scope
      static tmp<FieldField<fvsPatchField, Type>> interpolate
                 ^
-surfaceInterpolate.H:177:42: error: wrong number of template arguments (2, should be 1)
+/home/itsme/gsoc/OpenFOAM-toolbox/include/surfaceInterpolate.H:177:42: error: wrong number of template arguments (2, should be 1)
      static tmp<FieldField<fvsPatchField, Type>> interpolate
                                           ^
-In file included from List.H:45:0,
-                 from labelList.H:48,
-                 from UPstream.H:42,
-                 from Pstream.H:42,
-                 from parRun.H:35,
-                 from fvCFD.H:4,
+In file included from /home/itsme/gsoc/OpenFOAM-toolbox/include/List.H:45:0,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/labelList.H:48,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/UPstream.H:42,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/Pstream.H:42,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/parRun.H:35,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/fvCFD.H:4,
                  from icoFoam_wrap.c:1245:
-Xfer.H:79:25: note: provided for ‘template<class T> class Foam::tmp’
+/home/itsme/gsoc/OpenFOAM-toolbox/include/Xfer.H:79:25: note: provided for ‘template<class T> class Foam::tmp’
  template<class T> class tmp;
                          ^
-In file included from fvc.H:39:0,
-                 from fvCFD.H:8,
+In file included from /home/itsme/gsoc/OpenFOAM-toolbox/include/fvc.H:39:0,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/fvCFD.H:8,
                  from icoFoam_wrap.c:1245:
-surfaceInterpolate.H:177:46: error: expected unqualified-id before ‘>’ token
+/home/itsme/gsoc/OpenFOAM-toolbox/include/surfaceInterpolate.H:177:46: error: expected unqualified-id before ‘>’ token
      static tmp<FieldField<fvsPatchField, Type>> interpolate
                                               ^
-surfaceInterpolate.H:184:16: error: ‘FieldField’ was not declared in this scope
+/home/itsme/gsoc/OpenFOAM-toolbox/include/surfaceInterpolate.H:184:16: error: ‘FieldField’ was not declared in this scope
      static tmp<FieldField<fvsPatchField, Type>> interpolate
                 ^
-surfaceInterpolate.H:184:42: error: wrong number of template arguments (2, should be 1)
+/home/itsme/gsoc/OpenFOAM-toolbox/include/surfaceInterpolate.H:184:42: error: wrong number of template arguments (2, should be 1)
      static tmp<FieldField<fvsPatchField, Type>> interpolate
                                           ^
-In file included from List.H:45:0,
-                 from labelList.H:48,
-                 from UPstream.H:42,
-                 from Pstream.H:42,
-                 from parRun.H:35,
-                 from fvCFD.H:4,
+In file included from /home/itsme/gsoc/OpenFOAM-toolbox/include/List.H:45:0,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/labelList.H:48,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/UPstream.H:42,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/Pstream.H:42,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/parRun.H:35,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/fvCFD.H:4,
                  from icoFoam_wrap.c:1245:
-Xfer.H:79:25: note: provided for ‘template<class T> class Foam::tmp’
+/home/itsme/gsoc/OpenFOAM-toolbox/include/Xfer.H:79:25: note: provided for ‘template<class T> class Foam::tmp’
  template<class T> class tmp;
                          ^
-In file included from fvc.H:39:0,
-                 from fvCFD.H:8,
+In file included from /home/itsme/gsoc/OpenFOAM-toolbox/include/fvc.H:39:0,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/fvCFD.H:8,
                  from icoFoam_wrap.c:1245:
-surfaceInterpolate.H:184:46: error: expected unqualified-id before ‘>’ token
+/home/itsme/gsoc/OpenFOAM-toolbox/include/surfaceInterpolate.H:184:46: error: expected unqualified-id before ‘>’ token
      static tmp<FieldField<fvsPatchField, Type>> interpolate
                                               ^
-In file included from MRFZone.H:50:0,
-                 from MRFZoneList.H:41,
-                 from IOMRFZoneList.H:56,
-                 from constrainPressure.H:39,
-                 from fvCFD.H:19,
+In file included from /home/itsme/gsoc/OpenFOAM-toolbox/include/MRFZone.H:50:0,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/MRFZoneList.H:41,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/IOMRFZoneList.H:56,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/constrainPressure.H:39,
+                 from /home/itsme/gsoc/OpenFOAM-toolbox/include/fvCFD.H:19,
                  from icoFoam_wrap.c:1245:
-mapPolyMesh.H:231:15: error: ‘labelHashSet’ does not name a type
+/home/itsme/gsoc/OpenFOAM-toolbox/include/mapPolyMesh.H:231:15: error: ‘labelHashSet’ does not name a type
          const labelHashSet flipFaceFlux_;
                ^
-mapPolyMesh.H:307:19: error: ‘labelHashSet’ does not name a type
+/home/itsme/gsoc/OpenFOAM-toolbox/include/mapPolyMesh.H:307:19: error: ‘labelHashSet’ does not name a type
              const labelHashSet& flipFaceFlux,
                    ^
-mapPolyMesh.H:340:13: error: ‘labelHashSet’ has not been declared
+/home/itsme/gsoc/OpenFOAM-toolbox/include/mapPolyMesh.H:340:13: error: ‘labelHashSet’ has not been declared
              labelHashSet& flipFaceFlux,
              ^
-mapPolyMesh.H:557:23: error: ‘labelHashSet’ does not name a type
+/home/itsme/gsoc/OpenFOAM-toolbox/include/mapPolyMesh.H:557:23: error: ‘labelHashSet’ does not name a type
                  const labelHashSet& flipFaceFlux() const
                        ^
