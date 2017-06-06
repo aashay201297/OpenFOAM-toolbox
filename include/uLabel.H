@@ -42,7 +42,7 @@ Description
 
 #define UINT_ADD_SIZE(x,s,y) x ## s ## y
 #define UINT_ADD_DEF_SIZE(x,s,y) UINT_ADD_SIZE(x,s,y)
-#define UINT_SIZE(x,y) UINT_ADD_DEF_SIZE(x,32,y)
+#define UINT_SIZE(x,y) UINT_ADD_DEF_SIZE(x,64,y)
 
 // #if WM_LABEL_SIZE != 32 && WM_LABEL_SIZE != 64
 //     #error "uLabel.H: WM_LABEL_SIZE must be set to either 32 or 64"

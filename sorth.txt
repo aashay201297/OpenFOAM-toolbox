@@ -1,11 +1,3 @@
-%module icoFoam
-
-%inline %{
-#include "Foam.h"
-#include "fvCFD.H"
-#include "typeInfo.H"
-#include "className.H"
-#include "pisoControl.H"
 #include "CompactIOList.H"
 #include "Constant.H"
 #include "DLList.H"
@@ -404,11 +396,3 @@
 #include "zeroGradientFvPatchFields.H"
 #include "zeroI.H"
 #include "zone.H"
-%}
-
-
-%inline %{
-extern int icoFoam(int argc, char *argv[]);
-
-%}
-

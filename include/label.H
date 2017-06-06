@@ -42,7 +42,7 @@ Description
 
 #define INT_ADD_SIZE(x,s,y) x ## s ## y
 #define INT_ADD_DEF_SIZE(x,s,y) INT_ADD_SIZE(x,s,y)
-#define INT_SIZE(x,y) INT_ADD_DEF_SIZE(x,32,y)
+#define INT_SIZE(x,y) INT_ADD_DEF_SIZE(x,64,y)
 
 // #if WM_LABEL_SIZE != 32 && WM_LABEL_SIZE != 64
 //     #error "label.H: WM_LABEL_SIZE must be set to either 32 or 64"

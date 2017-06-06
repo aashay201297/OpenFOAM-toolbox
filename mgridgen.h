@@ -2,7 +2,7 @@
   =========                 |
   \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
    \\    /   O peration     |
-    \\  /    A nd           | Copyright (C) 2015-2016 OpenFOAM Foundation
+    \\  /    A nd           | Copyright (C) 2011 OpenFOAM Foundation
      \\/     M anipulation  |
 -------------------------------------------------------------------------------
 License
@@ -21,80 +21,40 @@ License
     You should have received a copy of the GNU General Public License
     along with OpenFOAM.  If not, see <http://www.gnu.org/licenses/>.
 
-Class
-    Foam::pisoControl
+Namespace
+    C linkage
 
 Description
-    Specialization of the pimpleControl class for PISO control.
+    Dummy stub for mgridgen library functions.
+    Only implements the absolute minimum we are using.
+
+SourceFiles
+    dummyMGridGen.C
 
 \*---------------------------------------------------------------------------*/
 
-#ifndef pisoControl_H
-#define pisoControl_H
+#ifndef mgridgen_H
+#define mgridgen_H
 
-#include "pimpleControl.H"
-#include "typeInfo.H"
+#include "scalar.H"
 
-//- Declare that pisoControl will be used
-#define PISO_CONTROL
-#undef PIMPLE_CONTROL
+#ifndef idxtype
+#define idxtype int
+#define realtype Foam::scalar
+#endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-
-namespace Foam
-{
 
 /*---------------------------------------------------------------------------*\
-                        Class pisoControl Declaration
+                           Class metis Declaration
 \*---------------------------------------------------------------------------*/
 
-class pisoControl
-:
-    public pimpleControl
-{
-    // Private member functions
+#ifdef __cplusplus
+extern "C"
+#endif
+void MGridGen(int, idxtype *, realtype *, realtype *, idxtype *, realtype *,
+              int, int, int *, int *, int *, idxtype *);
 
-        //- Disallow default bitwise copy construct
-        pisoControl(const pisoControl&);
-
-        //- Disallow default bitwise assignment
-        void operator=(const pisoControl&);
-
-
-public:
-
-    // Static Data Members
-
-        //- Run-time type information
-        TypeName("pisoControl");
-
-
-    // Constructors
-
-        //- Construct from mesh and the name of control sub-dictionary
-        pisoControl(fvMesh& mesh, const word& dictName="PISO");
-
-
-    //- Destructor
-    virtual ~pisoControl();
-
-
-    // Member Functions
-
-        // Solution control
-
-            //- Return true if in the final inner (PISO) iteration
-            inline bool finalInnerIter() const;
-};
-
-
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-
-#include "pisoControlI.H"
-
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-
-} // End namespace Foam
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
