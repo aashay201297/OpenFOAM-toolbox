@@ -8,7 +8,7 @@ for l in content:
 	# com = "cp " + " -v " + l + " " + " /home/itsme/gsoc/OpenFOAM-toolbox/source "
 	a = l
 	l = l.replace(' ', '')[:-1]
-	com = "mv " + a +  " " + l + "hpp"
+	com = "mv "  + l + "hpp " + a 
 	print com
 	i+=1
 	os.system(com)

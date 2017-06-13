@@ -432,6 +432,7 @@ token.H
 autoPtr.H
 HashTable.H
 GeometricScalarField.H
+GeometricVectorField.H
 GeometricTensorField.H
 GeometricSphericalTensorField.H
 GeoMesh.H
@@ -601,6 +602,7 @@ tensor.H
 triad.H
 macros.H
 GeometricScalarField.H
+GeometricVectorField.H
 GeometricTensorField.H
 GeometricSphericalTensorField.H
 GeoMesh.H
@@ -677,6 +679,7 @@ macros.H
 int32.H
 int64.H
 GeometricScalarField.H
+GeometricVectorField.H
 GeometricTensorField.H
 GeometricSphericalTensorField.H
 GeoMesh.H
@@ -864,3 +867,10 @@ pointFieldsFwd.H
 slicedVolFieldsFwd.H
 slicedSurfaceFieldsFwd.H
 className.H
+label.H
+string.H
+OSstream.H
+error.H
+simpleRegIOobject.H
+debug.H
+label.H

@@ -1,4 +1,4 @@
-with open("headers.txt") as f:
+with open("finalh") as f:
     content = f.readlines()
 content = [x.strip() for x in content]
 
@@ -30,13 +30,16 @@ else:
     if buff:
         out.append(''.join(buff))
 for line in content:
-    l = '/' + line
-    x = filter(lambda x: line in x, out)
-    final.append(x[1])
+    line = line.replace(' ', '')[:-1]
+    l = '/' + line + "C"
+    x = filter(lambda x: l in x, out)
+    print x
+    if len(x) != 0:
+        final.append(x[1])
 # content = list(set(content))
-a = open("source1.txt", "w")
+a = open("source2.txt", "w")
 # content.sort()
-for item in content:
+for item in final:
     print>>a, item
 
 # print allfile

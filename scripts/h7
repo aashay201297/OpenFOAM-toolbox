@@ -6859,3 +6859,16 @@ macros.H
 simpleRegIOobject.H
 debug.H
 label.H
+int32.H
+int64.H
+IOstream.H
+keyType.H
+word.H
+fileNameI.H
+OSstream.H
+label.H
+string.H
+OSstream.H
+error.H
+int32.H
+int64.H

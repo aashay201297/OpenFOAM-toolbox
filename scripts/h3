@@ -109,3 +109,5 @@ scalarRanges.H
 instantList.H
 solutionControl.H
 pimpleControlI.H
+error.H
+className.H

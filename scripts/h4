@@ -274,3 +274,6 @@ instant.H
 List.H
 fvMesh.H
 solutionControlI.H
+messageStream.H
+errorManip.H
+defineDebugSwitch.H

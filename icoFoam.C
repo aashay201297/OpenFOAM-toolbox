@@ -29,21 +29,21 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "pisoControl.H"
+#include "fvCFD.hpp"
+#include "pisoControl.hpp"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 int icoFoam(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "setRootCase.hpp"
+    #include "createTime.hpp"
+    #include "createMesh.hpp"
 
     pisoControl piso(mesh);
 
-    #include "createFields.H"
-    #include "initContinuityErrs.H"
+    #include "createFields.hpp"
+    #include "initContinuityErrs.hpp"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -53,7 +53,7 @@ int icoFoam(int argc, char *argv[])
     {
         Info<< "Time = " << runTime.timeName() << nl << endl;
 
-        #include "CourantNo.H"
+        #include "CourantNo.hpp"
 
         // Momentum predictor
 
@@ -106,7 +106,7 @@ int icoFoam(int argc, char *argv[])
                 }
             }
 
-            #include "continuityErrs.H"
+            #include "continuityErrs.hpp"
 
             U = HbyA - rAU*fvc::grad(p);
             U.correctBoundaryConditions();

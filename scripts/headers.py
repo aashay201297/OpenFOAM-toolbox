@@ -1,4 +1,4 @@
-with open("sorth.txt") as f:
+with open("h13") as f:
 	content = f.readlines()
 content = [x.strip() for x in content]
 
@@ -11,6 +11,7 @@ for name in content:
 	# 	print "asd"
 	# 	for match in re.finditer(pattern, line):
 	# 		print 'Found on line %s: %s' % (i+1, match.groups())
+	name = "../include/" + name
 	with open(name) as f1:
 		for line in f1:
 			# print line 
@@ -18,7 +19,7 @@ for name in content:
 			# print result
 			allfile.append(result)
 
-a = open("out7","w")
+a = open("h14","w")
 for item in allfile:
 	if item != []:
 		print>>a, item

@@ -1,4 +1,4 @@
-with open("finalout") as f:
+with open("finalh") as f:
 	content = f.readlines()
 content = [x.strip() for x in content]
 
@@ -18,7 +18,8 @@ content = [x.strip() for x in content]
 # 			# print result
 # 			allfile.append(result)
 
-a = open("sorth.txt","w")
+a = open("finalh","w")
+content = list(set(content))
 content.sort()
 for item in content:
 	print>>a, item

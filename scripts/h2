@@ -21,4 +21,5 @@ OSspecific.H
 argList.H
 timeSelector.H
 pimpleControl.H
+typeInfo.H
 pisoControlI.H
