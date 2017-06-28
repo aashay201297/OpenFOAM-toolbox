@@ -30,17 +30,19 @@ NOTE : Run this command in the case directory for the solver to work
 
 Then finally run scilab and execute the script (pimplefoam.sci or simplefoam.sci) to run the solver OR you can also run the following command:
 ```
-unix_w('simpleFoam-static')
+unix_w('./simpleFoam-static')
 ```
 for simpleFoam solver
 
 OR 
 ```
-unix_w('pimpleFoam-static')
+unix_w('./pimpleFoam-static')
 ```
 for pimpleFoam solver
 
-You can also look into these scripts to see how the solver is called
+You can also look into these scripts to see how the solver is called.
+
+Any suggestions or comments are most welcome. Drop me a mail anytime and I will try to respond to your query as soon as possible.
 
 
 
