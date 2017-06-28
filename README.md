@@ -7,13 +7,9 @@ This toolbox contains static executables for different OpenFOAM utilities (curre
 
 Firstly, to clone this repository git lfs needs to be installed as this repository has some files above 100 MB.
 
-Run the following commands to install git lfs:
+Install git-lfs from the following link : https://git-lfs.github.com/
 
-```
-$ cd git-lfs-2.1.1 
-
-$ ./install.sh
-```
+Then clone again if you have already cloned it. (obviously after removing the previous clone)
 
 Then go into any one of the examples (i.e planarPoiseuille or airFoil2D) using :
 
