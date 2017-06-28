@@ -3,7 +3,7 @@ This toolbox will let you use some basic functions of OpenFOAM in Scilab.
 
 This toolbox contains static executables for different OpenFOAM utilities (currently pimpleFoam solver and simpleFoam solver are available but more coming soon :p). 
 
-## REQUIREMENTS
+## HOW TO INSTALL AND RUN
 
 Firstly, to clone this repository git lfs needs to be installed as this repository has some files above 100 MB.
 
