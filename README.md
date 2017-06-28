@@ -10,6 +10,7 @@ Firstly, to clone this repository git lfs needs to be installed as this reposito
 Install git-lfs from the following link : https://git-lfs.github.com/
 
 Then clone again if you have already cloned it. (obviously after removing the previous clone)
+If it is still not working then download the project from here : https://drive.google.com/open?id=0B1Z_zi0X1eaURmNNb0xWdkl2SWs
 
 Then go into any one of the examples (i.e planarPoiseuille or airFoil2D) using :
 
