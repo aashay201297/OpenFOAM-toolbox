@@ -1,7 +1,7 @@
 
 function simpleFoamF(varargin)
 	[lhs,rhs] = argn(0)
-	if rhs >= 1 then
+	if rhs > 1 then
 		error('wrong number of inputs')
 	end
 	if rhs == 0 then
