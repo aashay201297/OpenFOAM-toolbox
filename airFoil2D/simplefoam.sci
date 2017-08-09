@@ -12,5 +12,5 @@ function simpleFoamF(varargin)
 	chdir(dir)
 	setenv('LD_LIBRARY_PATH','/home/aashay/OpenFOAM-toolbox/etc')//change "/home/aashay/gsoc/" to the path where you have cloned the repo
 	setenv('WM_PROJECT_DIR',dir)
-	unix_w('/home/aashay/OpenFOAM-toolbox/simpleFoam')//change "/home/aashay/gsoc/" to the path where you have cloned the repo
+	unix_w('/home/aashay/OpenFOAM-toolbox/airFoil2D/simpleFoam')//change "/home/aashay/gsoc/" to the path where you have cloned the repo
 endfunction
