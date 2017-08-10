@@ -4,13 +4,16 @@ function simpleFoamF(varargin)
 	if rhs > 1 then
 		error('wrong number of inputs')
 	end
-	if rhs == 0 then
-		dir = unix_g('pwd');
-	else
-		dir = string(varargin(1))
+	dir = unix_g('pwd');
+	if rhs ~= 0 then 
+		file = string(varargin(1));
 	end
-	chdir(dir)
 	setenv('LD_LIBRARY_PATH','/home/aashay/OpenFOAM-toolbox/etc')//change "/home/aashay/gsoc/" to the path where you have cloned the repo
 	setenv('WM_PROJECT_DIR',dir)
-	unix_w('/home/aashay/OpenFOAM-toolbox/simpleFoam')//change "/home/aashay/gsoc/" to the path where you have cloned the repo
+	if rhs == 0 then
+		unix_w('/home/aashay/OpenFOAM-toolbox/simpleFoam')//change "/home/aashay/gsoc/" to the path where you have cloned the repo
+	else 
+		cmd = '/home/aashay/OpenFOAM-toolbox/simpleFoam' + ' > ' + file
+		unix_w(cmd)//change "/home/aashay/gsoc/" to the path where you have cloned the repo		
+	end
 endfunction
