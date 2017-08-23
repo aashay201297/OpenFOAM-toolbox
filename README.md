@@ -31,6 +31,7 @@ OR
 $ git clone git@git.forge.scilab.org:openfoam.git
 ```
 Step 2 : Run Scilab 
+
 Step 3 : setup environment for the toolbox :
 ```
 cd <TOOLBOX DIRECTORY>
